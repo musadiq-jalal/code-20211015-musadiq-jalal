@@ -2,9 +2,9 @@
 Calculates the BMI for each record in a json file containing: Gender (Male/Female), Height (cm) and Weight (kg) Generates the BMI Category and Health risk on the basis of the chart provided
 
 ## BMIClaculator.py
-1: Read the json file and load the data into json object
-2: Calculating BMI for each record and appending result to list
-3: Creates pandas datafrmae form the resultant list of results
+1: Read the json file and load the data into json object \n
+2: Calculating BMI for each record and appending result to list\n
+3: Creates pandas datafrmae form the resultant list of results\n
 4: Prints the result and numbre of overweighted people.
 
 ## test_BMICalculator.py
