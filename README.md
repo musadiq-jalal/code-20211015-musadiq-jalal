@@ -4,11 +4,8 @@ Calculates the BMI for each record in a json file containing: Gender (Male/Femal
 
 ## BMIClaculator.py
 1: Read the json file and load the data into json object  
-
 2: Calculating BMI for each record and appending result to list  
-
 3: Creates pandas datafrmae form the resultant list of results  
-
 4: Prints the result and numbre of overweighted people.  
 
 
@@ -19,10 +16,13 @@ Is the testing script for the BMICalculator
 Runs the setup, test and script.  
 
 
-To run the calculator simply run the deploy.sh file on the root using
+To run the calculator simply run the deploy.sh file on the root using:   
 ```source deploy.sh```  
-`deply.sh` file makes an envirnment if it doesn't exists and installs the requirements into it.  
-Runs the test followed by script.
+
+`deploy.sh` file does:   
+1: Makes envirnment if it doesn't exists   
+2: Installs the requirements into it.  
+3: Runs the test followed by script.
 
 
 
